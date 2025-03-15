@@ -1,0 +1,22 @@
+# Ignore test, train, and valid folders
+test/
+train/
+valid/
+
+# Ignore Python cache and logs
+__pycache__/
+*.log
+
+# Ignore environment files
+.env
+.DS_Store
+
+# Ignore model files
+*.h5
+*.keras
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache
+.streamlit/
